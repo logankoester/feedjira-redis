@@ -14,12 +14,12 @@ require 'rake'
 require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
-  gem.name = "feedzirra-redis"
-  gem.homepage = "http://github.com/logankoester/feedzirra-redis"
+  gem.name = "feedjira-redis"
+  gem.homepage = "http://github.com/logankoester/feedjira-redis"
   gem.license = "MIT"
   gem.summary = %Q{Dead simple feed persistance}
-  gem.description = %Q{Dead simple feed persistance... because you shouldn't need a MySQL server just to include a few RSS items on a page}
-  gem.email = "lkoester@agoragames.com"
+  gem.description = %Q{Dead simple feed persistence}
+  gem.email = "logan@logankoester.com"
   gem.authors = ["Logan Koester"]
   # dependencies defined in Gemfile
 end
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "feedzirra-redis #{version}"
+  rdoc.title = "feedjira-redis #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
