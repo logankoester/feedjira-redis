@@ -14,6 +14,6 @@ require 'shoulda'
 
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'feedzirra-redis'
+require 'feedjira-redis'
 
 DataMapper.setup(:default, {:adapter => 'redis'})

@@ -1,7 +1,7 @@
 require 'helper'
 
-class TestFeedzirraRedis < Minitest::Test
-  include FeedzirraRedis
+class TestFeedjiraRedis < Minitest::Test
+  include FeedjiraRedis
 
   # Fakeweb reimplemented with symlinks! :-(
   def use_feed(feed)
@@ -39,8 +39,8 @@ class TestFeedzirraRedis < Minitest::Test
     end
 
     should 'create some entries' do
-      FeedzirraRedis::Feed.fetch_and_parse($feed_url)
-      assert FeedzirraRedis::Feed.first.entries.size >= 0
+      FeedjiraRedis::Feed.fetch_and_parse($feed_url)
+      assert FeedjiraRedis::Feed.first.entries.size >= 0
     end
 
     should 'not create a second feed if an existing feed has identical feed_url' do

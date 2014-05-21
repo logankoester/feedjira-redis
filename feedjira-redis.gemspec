@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = "feedzirra-redis"
+  s.name = "feedjira-redis"
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -25,14 +25,14 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
-    "feedzirra-redis.gemspec",
-    "lib/feedzirra-redis.rb",
+    "feedjira-redis.gemspec",
+    "lib/feedjira-redis.rb",
     "test/fixtures/monkeys_new.atom",
     "test/fixtures/monkeys_old.atom",
     "test/helper.rb",
-    "test/test_feedzirra-redis.rb"
+    "test/test_feedjira-redis.rb"
   ]
-  s.homepage = "http://github.com/logankoester/feedzirra-redis"
+  s.homepage = "http://github.com/logankoester/feedjira-redis"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = "2.0.14"

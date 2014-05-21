@@ -1,6 +1,6 @@
 %w{rubygems feedjira dm-core dm-redis-adapter}.each { |f| require f }
 
-module  FeedzirraRedis
+module  FeedjiraRedis
 
   class Entry
     include DataMapper::Resource
