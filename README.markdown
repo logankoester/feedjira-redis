@@ -1,5 +1,8 @@
 # feedjira-redis
 
+[![Build Status](http://ci.ldk.io/logankoester/feedjira-redis/badge)](http://ci.ldk.io/logankoester/feedjira-redis/)
+[![Gem Version](https://badge.fury.io/rb/feedjira-redis.svg)](http://badge.fury.io/rb/feedjira-redis)
+
 FeedjiraRedis uses Datamapper's dm-redis-adapter to provide a persistance layer for the [feedjira](https://github.com/feedjira/feedjira) RSS/Atom feed consumption library.
 
 ## Example Usage
