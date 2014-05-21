@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = "feedjira-redis"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Logan Koester"]
   s.date = "2014-05-21"
-  s.description = "Dead simple feed persistance... because you shouldn't need a MySQL server just to include a few RSS items on a page"
-  s.email = "lkoester@agoragames.com"
+  s.description = "Dead simple feed persistence"
+  s.email = "logan@logankoester.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
