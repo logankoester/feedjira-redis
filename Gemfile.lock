@@ -15,8 +15,12 @@ GEM
     curb (0.8.5)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
+    dm-aggregates (1.2.0)
+      dm-core (~> 1.2.0)
     dm-core (1.2.1)
       addressable (~> 2.3)
+    dm-migrations (1.2.0)
+      dm-core (~> 1.2.0)
     dm-redis-adapter (0.9.0)
       dm-core (>= 1.2.0)
       dm-core (>= 1.2.0)
@@ -112,6 +116,8 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  dm-aggregates
+  dm-migrations
   dm-redis-adapter
   feedjira
   i18n

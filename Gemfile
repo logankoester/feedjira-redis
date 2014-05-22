@@ -1,6 +1,8 @@
 source "http://rubygems.org"
 
 gem 'dm-redis-adapter'
+gem 'dm-migrations'
+gem 'dm-aggregates'
 gem 'feedjira'
 gem 'i18n'
 
