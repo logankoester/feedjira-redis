@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem 'dm-redis-adapter'
+gem 'data_mapper'
 gem 'feedjira'
 gem 'i18n'
 
